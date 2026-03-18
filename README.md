@@ -104,10 +104,16 @@ This project demonstrates how brute force attacks can be detected using SIEM too
 ---
 
 ## 📸 Screenshots
+Hydra Attack
 ![Hydra Attack](screenshots/01-hydra-attack-success.png)
+Log Evidence (Ubuntu Victim)
 ![Failed Logs](screenshots/02-log-evidence-Ubuntu-victim.png)
+Successful Login
 ![Successful Login](screenshots/03-successful-login-logs.png)
+Splunk Logs
 ![Splunk Logs](screenshots/04-splunk-raw-failed-events.png)
+Detection Query
 ![Detection Query](screenshots/05-bruteforce-detection-query.png)
+SOC Dashboard
 ![SOC Dashboard](screenshots/06-soc-dashboard.jpg)
 
