@@ -1,10 +1,31 @@
 # 🔐 SOC Lab: SSH Brute Force Attack Detection using Splunk
+> ⚠️ This project is for educational purposes only. All attacks were performed in a controlled lab environment.
+
+## 🚀 Project Highlights
+
+- Simulated real-world SSH brute force attack using Hydra
+- Ingested and analyzed Linux authentication logs in Splunk
+- Developed SPL queries to detect brute force activity
+- Identified attacker IP after multiple failed attempts
+- Built SOC dashboard for monitoring and alerting
+
+---
 
 ## 📌 Overview
 
 This project demonstrates a real-world Security Operations Center (SOC) scenario where an SSH brute force attack is simulated and detected using Splunk SIEM.
 
 The lab includes attack simulation, log analysis, and detection using SPL queries and dashboards.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- SIEM: Splunk (log ingestion, SPL queries, dashboards)
+- Threat Detection: Brute Force Attack Detection
+- Log Analysis: Linux authentication logs (auth.log)
+- Networking: SSH protocol, IP tracking
+- Cybersecurity Tools: Hydra, Kali Linux, Ubuntu
 
 ---
 
@@ -93,7 +114,7 @@ Created a Splunk dashboard to visualize:
 * Attacker IP: **192.168.56.101**
 * Multiple failed login attempts detected
 * Successful login confirmed after brute force attack
-* Indicates account compromise
+* Indicates potential account compromise
 
 ---
 
@@ -108,12 +129,12 @@ Hydra Attack
 ![Hydra Attack](screenshots/01-hydra-attack-success.png)
 Log Evidence (Ubuntu Victim)
 ![Failed Logs](screenshots/02-log-evidence-Ubuntu-victim.png)
-Successful Login
+Successful Login Detection
 ![Successful Login](screenshots/03-successful-login-logs.png)
-Splunk Logs
+Raw Logs in Splunk
 ![Splunk Logs](screenshots/04-splunk-raw-failed-events.png)
-Detection Query
+Brute Force Detection Query
 ![Detection Query](screenshots/05-bruteforce-detection-query.png)
-SOC Dashboard
+SOC Dashboard Output
 ![SOC Dashboard](screenshots/06-soc-dashboard.jpg)
 
